@@ -21,8 +21,10 @@ The SKLearn Pipeline goes through the following steps:
 •	Evaluate and optimize the model.
 •	Clean/preprocess/transform test data.
 •	Fit the model on test data to make predictions.
+*Reference: https://www.analyticsvidhya.com/blog/2020/01/build-your-first-machine-learning-pipeline-using-scikit-learn/ 
 
-Classification algorithm is a Supervised Learning technique that is used to identify the category of new observations based on learnings from the training data. In Classification, a program learns from the given dataset or observations and then classifies new observation into a number of classes or groups.
+Classification algorithm is a Supervised Learning technique that is used to identify the category of new observations based on learnings from the training data. In Classification, a program learns from the given dataset or observations and then classifies new observation into several classes or groups.
+*Reference: https://www.javatpoint.com/classification-algorithm-in-machine-learning 
 
 **What are the benefits of the parameter sampler you chose?**
 
@@ -30,11 +32,13 @@ Hyperparameter tuning is the process of finding the configuration of hyperparame
 
 Benefits of Random parameter sampler chosen for this project is that hyperparameter values are randomly selected from the defined search space thereby reducing computational time unlike Grid Parameter Sampling that explores the entire parameter search space.
 Also for Random parameter sampling, the number of runs can be controlled and it allows for sampling a range of parameters that can be further refined with a Grid parameter sampling.
+*Reference: https://githubmemory.com/repo/apollo2030/automl-pipeline 
 
 **What are the benefits of the early stopping policy you chose?**
 	
 Early termination improves computational efficiency by automatically ending poor performing runs with an early stopping policy.
 Bandit early stopping policy was used in this project and it is based on slack factor/slack amount and evaluation interval. The policy early terminates any runs where the primary metric is not within the specified slack factor/slack amount with respect to the best performing training run.
+*Reference: https://azure.github.io/azureml-sdk-for-r/reference/bandit_policy.html
 
 AutoML
 
